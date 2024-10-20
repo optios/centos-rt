@@ -5,6 +5,6 @@ You can learn "how to apply preempt-rt patch to non-mainline kernel" from this p
 
 CentOS kernel is significantly different from the mainline Linux in that it has new features in core part of the kernel. Core components usually have 5~10% more lines compared to the same version of mainline kernel.
 
-It takes 3 weeks (full time) for me to make this patch.
+It took 3 weeks (full time) for me to make this patch.
 
 Future work: I want to combine preempt-rt patch with litmus-rt.
