@@ -1,4 +1,4 @@
-# centos-rt
+# CentOS-rt
 preempt-rt patch for centos 3.10.0-123.9.2.el7
 
 You can learn "how to apply preempt-rt patch to non-mainline kernel" from this patch.
@@ -6,5 +6,7 @@ You can learn "how to apply preempt-rt patch to non-mainline kernel" from this p
 CentOS kernel is significantly different from the mainline Linux in that it has new features in core part of the kernel. Core components usually have 5~10% more lines compared to the same version of mainline kernel.
 
 It took 3 weeks (full time) for me to make this patch.
+
+You can get CentOS kernel 3.10.0-123.9.2.el7 from: https://git.centos.org/rpms/kernel/releases
 
 Future work: I want to combine preempt-rt patch with litmus-rt.
